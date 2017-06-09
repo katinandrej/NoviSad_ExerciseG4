@@ -49,11 +49,11 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score() throws BowlingException{
-		int s = 0;
+		int score = 0;
 		for (int i = 0; i < frames.size(); i++) {
-			s = s + frames.get(i).score();
+			score = score + frames.get(i).score();
 		}
-		return s + addBonus();
+		return score + addBonus();
 	}
 
 	public List<Frame> getFrames() {
