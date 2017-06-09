@@ -116,3 +116,9 @@ EditAction 1497032770684 TestBowling.java 2966 10 61 8
 UnitTestCaseAction 1497032779549 TestBowling.java FAIL
 UnitTestSessionAction 1497032779550 TestBowling.java FAIL
 EditAction 1497032881641 BowlingGame.java 1046 6 6 0
+UnitTestCaseAction 1497032890655 TestBowling.java FAIL
+UnitTestSessionAction 1497032890656 TestBowling.java FAIL
+RefactoringAction 1497032910107 BowlingGame.java ADD void dodaj FIELD
+RefactoringAction 1497032916627 BowlingGame.java RENAME dodaj=>void addBonus() METHOD
+RefactoringAction 1497033035454 BowlingGame.java ADD int score FIELD
+EditAction 1497033115986 BowlingGame.java 1348 7 8 0
