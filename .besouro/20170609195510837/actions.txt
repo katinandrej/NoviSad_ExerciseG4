@@ -68,3 +68,6 @@ UnitTestSessionAction 1497031961898 TestBowling.java OK
 RefactoringAction 1497031973151 TestBowling.java ADD void test_scoreIfStrikeOneFrame()/2 METHOD
 RefactoringAction 1497031995738 TestBowling.java RENAME test_scoreIfStrikeOneFrame()/2=>void test_scoreIfStrikeOneFrameException() METHOD
 EditAction 1497032006567 TestBowling.java 1893 6 39 5
+UnitTestCaseAction 1497032015731 TestBowling.java FAIL
+UnitTestSessionAction 1497032015733 TestBowling.java FAIL
+EditAction 1497032071442 Frame.java 887 6 7 0
