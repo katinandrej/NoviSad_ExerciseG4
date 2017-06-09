@@ -28,22 +28,22 @@ public class BowlingGame {
 		//to be implemented
 	}
 	
-	public void addBonus() throws BowlingException {
+	public int addBonus() throws BowlingException {
 		for (int i = 0; i < frames.size(); i++) {
 			if (frames.get(i).isStrike() && i <= frames.size() - 1) {
 				score = score + frames.get(i+1).getFirstThrow() + frames.get(i).getSecondThrow();
 			}
 		}
+		return score;
 	}
 	
 	// Returns the game score
 	public int score() throws BowlingException{
 		int score = 0;
-		addBonus();
 		for (int i = 0; i < frames.size(); i++) {
 			score = score + frames.get(i).score();
 		}
-		return score;
+		return score + addBonus();
 	}
 
 	public List<Frame> getFrames() {
