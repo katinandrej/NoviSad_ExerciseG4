@@ -104,3 +104,4 @@ RefactoringAction 1497032507570 TestBowling.java RENAME test_ExceptionIfScoreIsG
 RefactoringAction 1497032532616 TestBowling.java RENAME test_()=>void test_TwoStrikesIn() METHOD
 RefactoringAction 1497032534127 TestBowling.java RENAME test_TwoStrikesIn()=>void test_TwoStrikesInRow() METHOD
 EditAction 1497032692313 BowlingGame.java 956 6 4 0
+EditAction 1497032706161 TestBowling.java 2641 9 53 7
