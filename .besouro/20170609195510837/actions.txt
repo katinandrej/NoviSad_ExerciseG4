@@ -105,3 +105,11 @@ RefactoringAction 1497032532616 TestBowling.java RENAME test_()=>void test_TwoSt
 RefactoringAction 1497032534127 TestBowling.java RENAME test_TwoStrikesIn()=>void test_TwoStrikesInRow() METHOD
 EditAction 1497032692313 BowlingGame.java 956 6 4 0
 EditAction 1497032706161 TestBowling.java 2641 9 53 7
+UnitTestCaseAction 1497032720088 TestBowling.java FAIL
+UnitTestSessionAction 1497032720089 TestBowling.java FAIL
+RefactoringAction 1497032729106 TestBowling.java ADD void test_TwoStrikesInRow()/2 METHOD
+RefactoringAction 1497032738129 TestBowling.java RENAME test_TwoStrikesInRow()/2=>void test_() METHOD
+RefactoringAction 1497032742143 TestBowling.java RENAME test_()=>void test_Score() METHOD
+RefactoringAction 1497032743652 TestBowling.java RENAME test_Score()=>void test_ScoreThree() METHOD
+RefactoringAction 1497032745162 TestBowling.java RENAME test_ScoreThree()=>void test_ScoreThreeFrames() METHOD
+EditAction 1497032770684 TestBowling.java 2966 10 61 8

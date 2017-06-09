@@ -103,5 +103,19 @@ public class TestBowling {
 		assertEquals(45, game.score());
 		
 	}
+	
+	@Test
+	public void test_ScoreThreeFrames() throws BowlingException{
+		game = new BowlingGame();
+		frame = new Frame(5, 0);
+		Frame frame1 = new Frame(3, 0);
+		Frame frame2 = new Frame(3, 3);
+		game.addFrame(frame1);
+		game.addFrame(frame);
+		game.addFrame(frame2);
+		
+		assertEquals(14, game.score());
+		
+	}
 
 }
