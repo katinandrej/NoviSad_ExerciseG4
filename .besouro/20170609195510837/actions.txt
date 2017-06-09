@@ -131,3 +131,6 @@ RefactoringAction 1497033154647 TestBowling.java RENAME test_StrikesIn()=>void t
 RefactoringAction 1497033156158 TestBowling.java RENAME test_StrikesInOne()=>void test_StrikesInOneT() METHOD
 RefactoringAction 1497033159173 TestBowling.java RENAME test_StrikesInOneT()=>void test_StrikesInOneThrow() METHOD
 EditAction 1497033173539 TestBowling.java 3232 11 67 9
+UnitTestCaseAction 1497033188490 TestBowling.java FAIL
+UnitTestSessionAction 1497033188492 TestBowling.java FAIL
+EditAction 1497033211099 BowlingGame.java 1344 7 8 0

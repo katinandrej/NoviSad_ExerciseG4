@@ -29,7 +29,7 @@ public class BowlingGame {
 	}
 	
 	public void addBonus() throws BowlingException {
-		for (int i = 0; i < frames.size() - 2; i++) {
+		for (int i = 0; i < frames.size(); i++) {
 			if (frames.get(i).isStrike() && i < frames.size() - 1) {
 				score = score + frames.get(i+1).getFirstThrow() + frames.get(i).getSecondThrow();
 			}
