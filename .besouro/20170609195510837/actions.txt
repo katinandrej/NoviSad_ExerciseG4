@@ -113,3 +113,6 @@ RefactoringAction 1497032742143 TestBowling.java RENAME test_()=>void test_Score
 RefactoringAction 1497032743652 TestBowling.java RENAME test_Score()=>void test_ScoreThree() METHOD
 RefactoringAction 1497032745162 TestBowling.java RENAME test_ScoreThree()=>void test_ScoreThreeFrames() METHOD
 EditAction 1497032770684 TestBowling.java 2966 10 61 8
+UnitTestCaseAction 1497032779549 TestBowling.java FAIL
+UnitTestSessionAction 1497032779550 TestBowling.java FAIL
+EditAction 1497032881641 BowlingGame.java 1046 6 6 0
