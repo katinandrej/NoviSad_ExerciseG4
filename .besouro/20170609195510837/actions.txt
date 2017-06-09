@@ -94,3 +94,6 @@ RefactoringAction 1497032368295 TestBowling.java RENAME test_ExceptionIfScoreIs(
 RefactoringAction 1497032369806 TestBowling.java RENAME test_ExceptionIfScoreIsGreater()=>void test_ExceptionIfScoreIsGreaterThan() METHOD
 RefactoringAction 1497032371320 TestBowling.java RENAME test_ExceptionIfScoreIsGreaterThan()=>void test_ExceptionIfScoreIsGreaterThan10() METHOD
 EditAction 1497032402052 TestBowling.java 2315 8 45 6
+UnitTestCaseAction 1497032411197 TestBowling.java FAIL
+UnitTestSessionAction 1497032411199 TestBowling.java FAIL
+EditAction 1497032464174 Frame.java 1134 6 7 0
