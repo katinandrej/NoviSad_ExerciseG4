@@ -60,3 +60,6 @@ RefactoringAction 1497031884475 TestBowling.java ADD void test_scoreIfStrikeOneF
 RefactoringAction 1497031888984 TestBowling.java RENAME test_scoreIfStrikeOneFrame()/2=>void test_scoreIfSOneFrame() METHOD
 RefactoringAction 1497031890497 TestBowling.java RENAME test_scoreIfSOneFrame()=>void test_scoreIfSpareOneFrame() METHOD
 EditAction 1497031900455 TestBowling.java 1671 5 36 4
+UnitTestCaseAction 1497031911947 TestBowling.java FAIL
+UnitTestSessionAction 1497031911949 TestBowling.java FAIL
+EditAction 1497031953288 Frame.java 787 6 7 0
