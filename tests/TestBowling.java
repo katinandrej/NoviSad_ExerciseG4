@@ -8,7 +8,7 @@ public class TestBowling {
 	Frame frame;
 	
 	@Test
-	public void test_addingFrame() {
+	public void test_addingFrame() throws BowlingException {
 		game = new BowlingGame();
 		frame = new Frame(0, 0);
 		game.addFrame(frame);
@@ -17,7 +17,7 @@ public class TestBowling {
 	}
 	
 	@Test(expected = BowlingException.class)
-	public void test_addingMoreThan10Frames() {
+	public void test_addingMoreThan10Frames() throws BowlingException {
 		game = new BowlingGame();
 		frame = new Frame(0, 0);
 		game.addFrame(frame);
@@ -41,8 +41,14 @@ public class TestBowling {
 		game.addFrame(frame9);
 		game.addFrame(frame10);
 		game.addFrame(frame11);
+	}
+	
+	@Test
+	public void test_scoreInOneFrame() throws BowlingException{
+		game = new BowlingGame();
+		frame = new Frame(3, 4);
 		
-		
+		assertEquals(7, frame.score());
 	}
 
 }
