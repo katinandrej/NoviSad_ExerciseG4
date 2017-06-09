@@ -219,3 +219,9 @@ EditAction 1497035210190 TestBowling.java 5486 14 119 12
 UnitTestCaseAction 1497035226625 TestBowling.java FAIL
 UnitTestSessionAction 1497035226628 TestBowling.java FAIL
 EditAction 1497035257211 BowlingGame.java 1975 7 9 0
+UnitTestCaseAction 1497035265446 TestBowling.java FAIL
+UnitTestSessionAction 1497035265448 TestBowling.java FAIL
+RefactoringAction 1497035279064 TestBowling.java ADD void test_spareIn10thFrame()/2 METHOD
+RefactoringAction 1497035284075 TestBowling.java RENAME test_spareIn10thFrame()/2=>void test_strikeIn10thFrame()/2 METHOD
+RefactoringAction 1497035288085 TestBowling.java RENAME test_strikeIn10thFrame()/2=>void test_strikeIn10thFrameException() METHOD
+EditAction 1497035337731 TestBowling.java 6267 15 141 12
