@@ -19,7 +19,7 @@ public class BowlingGame {
 			this.frames.add(frame);
 		}
 		else {
-			throw new BowlingException();
+			throw new BowlingException() ;
 		}
 	}
 	
