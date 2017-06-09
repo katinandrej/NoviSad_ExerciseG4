@@ -19,3 +19,12 @@ RefactoringAction 1497031234902 BowlingGame.java ADD void setFrames(List<Frame>)
 CompilationAction 1497031255310 TestBowling.java
 CompilationAction 1497031255636 TestBowling.java
 EditAction 1497031255832 BowlingGame.java 848 6 4 0
+CompilationAction 1497031265750 TestBowling.java
+CompilationAction 1497031289126 TestBowling.java
+UnitTestCaseAction 1497031290247 TestBowling.java OK
+UnitTestSessionAction 1497031290249 TestBowling.java OK
+RefactoringAction 1497031312893 TestBowling.java ADD void test_addingMore FIELD
+RefactoringAction 1497031314904 TestBowling.java RENAME test_addingMore=>void test_addingMoreThan FIELD
+RefactoringAction 1497031316416 TestBowling.java RENAME test_addingMoreThan=>void test_addingMoreThan10 FIELD
+RefactoringAction 1497031319428 TestBowling.java RENAME test_addingMoreThan10=>void test_addingMoreThan10Frames() METHOD
+EditAction 1497031452407 TestBowling.java 1105 2 27 1

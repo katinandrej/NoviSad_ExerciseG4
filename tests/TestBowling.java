@@ -13,7 +13,36 @@ public class TestBowling {
 		frame = new Frame(0, 0);
 		game.addFrame(frame);
 		
-		assertEquals(1, game.frames.size());
+		assertEquals(1, game.getFrames().size());
+	}
+	
+	@Test(expected = BowlingException.class)
+	public void test_addingMoreThan10Frames() {
+		game = new BowlingGame();
+		frame = new Frame(0, 0);
+		game.addFrame(frame);
+		Frame frame2 = new Frame(0,0);
+		Frame frame3 = new Frame(0,0);
+		Frame frame4 = new Frame(0,0);
+		Frame frame5 = new Frame(0,0);
+		Frame frame6 = new Frame(0,0);
+		Frame frame7 = new Frame(0,0);
+		Frame frame8 = new Frame(0,0);
+		Frame frame9 = new Frame(0,0);
+		Frame frame10 = new Frame(0,0);
+		Frame frame11 = new Frame(0,0);
+		game.addFrame(frame2);
+		game.addFrame(frame3);
+		game.addFrame(frame4);
+		game.addFrame(frame5);
+		game.addFrame(frame6);
+		game.addFrame(frame7);
+		game.addFrame(frame8);
+		game.addFrame(frame9);
+		game.addFrame(frame10);
+		game.addFrame(frame11);
+		
+		
 	}
 
 }
