@@ -180,6 +180,8 @@ public class TestBowling {
 		game.addFrame(frame8);
 		game.addFrame(frame9);
 		
+		game.setBonus(6, 0);
+		
 		assertEquals(70, game.score());
 	}
 
