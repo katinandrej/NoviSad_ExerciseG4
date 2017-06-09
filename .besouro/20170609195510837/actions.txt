@@ -10,3 +10,12 @@ RefactoringAction 1497031070343 TestBowling.java RENAME test_creatingGame()=>voi
 RefactoringAction 1497031073865 TestBowling.java RENAME test_creating()=>void test_adding() METHOD
 RefactoringAction 1497031075380 TestBowling.java RENAME test_adding()=>void test_addingFrame() METHOD
 EditAction 1497031194007 TestBowling.java 379 2 5 1
+CompilationAction 1497031204600 TestBowling.java
+UnitTestCaseAction 1497031207684 TestBowling.java FAIL
+UnitTestSessionAction 1497031207686 TestBowling.java FAIL
+RefactoringAction 1497031217245 TestBowling.java REMOVE test() METHOD
+RefactoringAction 1497031234895 BowlingGame.java ADD List<Frame> getFrames() METHOD
+RefactoringAction 1497031234902 BowlingGame.java ADD void setFrames(List<Frame>) METHOD
+CompilationAction 1497031255310 TestBowling.java
+CompilationAction 1497031255636 TestBowling.java
+EditAction 1497031255832 BowlingGame.java 848 6 4 0

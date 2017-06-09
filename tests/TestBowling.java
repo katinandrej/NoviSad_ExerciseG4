@@ -6,11 +6,6 @@ public class TestBowling {
 	
 	BowlingGame game;
 	Frame frame;
-
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
 	
 	@Test
 	public void test_addingFrame() {
