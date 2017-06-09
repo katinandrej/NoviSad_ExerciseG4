@@ -76,3 +76,6 @@ UnitTestSessionAction 1497032084443 TestBowling.java OK
 RefactoringAction 1497032101386 TestBowling.java ADD void test_scoreIfSpareOneFrame()/2 METHOD
 RefactoringAction 1497032115413 TestBowling.java RENAME test_scoreIfSpareOneFrame()/2=>void test_scoreIfSpareOneFrameException() METHOD
 EditAction 1497032127686 TestBowling.java 2112 7 42 6
+UnitTestCaseAction 1497032136732 TestBowling.java FAIL
+UnitTestSessionAction 1497032136733 TestBowling.java FAIL
+EditAction 1497032182403 Frame.java 1005 6 7 0
