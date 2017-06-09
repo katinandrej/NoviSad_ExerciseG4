@@ -32,6 +32,9 @@ public class BowlingGame {
 			else if (frames.get(9).isStrike()) {
 				score = score  + firstThrow;
 			}
+			else if (frames.get(9).isSpare()) {
+				score = score  + firstThrow;
+			}
 		}
 	}
 	
