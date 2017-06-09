@@ -82,5 +82,12 @@ public class TestBowling {
 		
 		assertTrue(frame.isSpare());
 	}
+	
+	@Test(expected = BowlingException.class)
+	public void test_ExceptionIfScoreIsGreaterThan10() throws BowlingException{
+		game = new BowlingGame();
+		frame = new Frame(7, 5);
+		frame.score();
+	}
 
 }

@@ -79,3 +79,18 @@ EditAction 1497032127686 TestBowling.java 2112 7 42 6
 UnitTestCaseAction 1497032136732 TestBowling.java FAIL
 UnitTestSessionAction 1497032136733 TestBowling.java FAIL
 EditAction 1497032182403 Frame.java 1005 6 7 0
+UnitTestCaseAction 1497032195829 TestBowling.java OK
+UnitTestSessionAction 1497032195830 TestBowling.java OK
+RefactoringAction 1497032278120 TestBowling.java ADD void test_scoreIfStrikeOneFrame()/2 METHOD
+RefactoringAction 1497032348685 TestBowling.java RENAME test_scoreIfStrikeOneFrame()/2=>void test_scoreIf() METHOD
+RefactoringAction 1497032349693 TestBowling.java RENAME test_scoreIf()=>void test_scoreI() METHOD
+RefactoringAction 1497032351207 TestBowling.java RENAME test_scoreI()=>void test_scoreIf() METHOD
+RefactoringAction 1497032354723 TestBowling.java RENAME test_scoreIf()=>void test_() METHOD
+RefactoringAction 1497032357743 TestBowling.java RENAME test_()=>void test_Exception() METHOD
+RefactoringAction 1497032360758 TestBowling.java RENAME test_Exception()=>void test_ExceptionIfScore() METHOD
+RefactoringAction 1497032364271 TestBowling.java RENAME test_ExceptionIfScore()=>void test_ExceptionIfScoreIsMore() METHOD
+RefactoringAction 1497032366282 TestBowling.java RENAME test_ExceptionIfScoreIsMore()=>void test_ExceptionIfScoreIs() METHOD
+RefactoringAction 1497032368295 TestBowling.java RENAME test_ExceptionIfScoreIs()=>void test_ExceptionIfScoreIsGreater() METHOD
+RefactoringAction 1497032369806 TestBowling.java RENAME test_ExceptionIfScoreIsGreater()=>void test_ExceptionIfScoreIsGreaterThan() METHOD
+RefactoringAction 1497032371320 TestBowling.java RENAME test_ExceptionIfScoreIsGreaterThan()=>void test_ExceptionIfScoreIsGreaterThan10() METHOD
+EditAction 1497032402052 TestBowling.java 2315 8 45 6
