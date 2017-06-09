@@ -103,6 +103,18 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void test_SpareInOneThrow() throws BowlingException{
+		game = new BowlingGame();
+		frame = new Frame(5, 5);
+		Frame frame2 = new Frame(3, 3);
+		game.addFrame(frame);
+		game.addFrame(frame2);
+		
+		assertEquals(19, game.score());
+		
+	}
+	
+	@Test
 	public void test_TwoStrikesInRow() throws BowlingException{
 		game = new BowlingGame();
 		frame = new Frame(10, 0);
