@@ -187,3 +187,10 @@ EditAction 1497034585385 BowlingGame.java 1810 7 9 0
 UnitTestCaseAction 1497034594131 TestBowling.java FAIL
 UnitTestSessionAction 1497034594133 TestBowling.java FAIL
 EditAction 1497034652549 BowlingGame.java 1810 7 9 0
+UnitTestCaseAction 1497034669439 TestBowling.java FAIL
+UnitTestSessionAction 1497034669441 TestBowling.java FAIL
+RefactoringAction 1497034805846 TestBowling.java ADD void test FIELD
+RefactoringAction 1497034811361 TestBowling.java RENAME test=>void test_strikeIn10 FIELD
+RefactoringAction 1497034813380 TestBowling.java RENAME test_strikeIn10=>void test_strikeIn10thFrame FIELD
+RefactoringAction 1497034815892 TestBowling.java RENAME test_strikeIn10thFrame=>void test_strikeIn10thFrame() METHOD
+EditAction 1497034931322 TestBowling.java 4681 13 95 11
