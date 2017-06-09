@@ -29,6 +29,9 @@ public class BowlingGame {
 			if (frames.get(9).isStrike() && frames.get(8).isStrike()) {
 				score = score + 10 + firstThrow + firstThrow;
 			}
+			else if (frames.get(9).isStrike()) {
+				score = score + 10 + firstThrow;
+			}
 		}
 	}
 	
