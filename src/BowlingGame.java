@@ -20,6 +20,7 @@ public class BowlingGame {
 		}
 		else {
 			throw new BowlingException() ;
+			
 		}
 	}
 	
