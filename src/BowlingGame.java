@@ -30,7 +30,7 @@ public class BowlingGame {
 				score = score + 10 + firstThrow + firstThrow;
 			}
 			else if (frames.get(9).isStrike()) {
-				score = score + 10 + firstThrow;
+				score = score  + firstThrow;
 			}
 		}
 	}
