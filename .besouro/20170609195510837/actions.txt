@@ -237,3 +237,4 @@ RefactoringAction 1497035480357 TestBowling.java RENAME test_strikeIn10thFrameEx
 RefactoringAction 1497035483371 TestBowling.java RENAME test_bonusIn10thFrameException()=>void test_bonusIn10thFrameExceptionFirst()/2 METHOD
 RefactoringAction 1497035488887 TestBowling.java RENAME test_bonusIn10thFrameExceptionFirst()/2=>void test_bonusIn10thFrameExceptionSecond() METHOD
 EditAction 1497035496904 BowlingGame.java 2069 7 9 0
+EditAction 1497035522272 TestBowling.java 7060 16 163 12
