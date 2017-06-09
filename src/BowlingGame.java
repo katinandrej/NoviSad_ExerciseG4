@@ -29,6 +29,9 @@ public class BowlingGame {
 			if (firstThrow > 10) {
 				throw new BowlingException();
 			}
+			else if (secondThrow > 10) {
+				throw new BowlingException();
+			}
 			else {
 				if (frames.get(9).isStrike() && frames.get(8).isStrike()) {
 					score = score + 10 + firstThrow + firstThrow;
