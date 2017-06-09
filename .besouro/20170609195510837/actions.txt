@@ -175,3 +175,6 @@ RefactoringAction 1497034257840 TestBowling.java ADD void test_ScoreThreeFrames(
 RefactoringAction 1497034260356 TestBowling.java REMOVE test_ScoreThreeFrames() METHOD
 RefactoringAction 1497034262375 TestBowling.java ADD void test_ScoreThreeFrames() METHOD
 EditAction 1497034269041 TestBowling.java 3930 12 73 10
+UnitTestCaseAction 1497034278025 TestBowling.java FAIL
+UnitTestSessionAction 1497034278027 TestBowling.java FAIL
+EditAction 1497034505256 BowlingGame.java 1773 7 8 0

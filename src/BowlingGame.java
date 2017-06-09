@@ -32,7 +32,7 @@ public class BowlingGame {
 		}
 	}
 	
-	public int addBonus() throws BowlingException {
+	public void addBonus() throws BowlingException {
 		for (int i = 0; i < frames.size(); i++) {
 			if (frames.get(i).isStrike() && frames.get(i+1).isStrike() && i <= frames.size() - 2) {
 				score = score + 10 + frames.get(i+1).getFirstThrow();
@@ -44,16 +44,15 @@ public class BowlingGame {
 				score = score + frames.get(i+1).getFirstThrow();
 			}
 		}
-		return score;
 	}
 	
 	// Returns the game score
 	public int score() throws BowlingException{
-		int score = 0;
+		int s = 0;
 		for (int i = 0; i < frames.size(); i++) {
-			score = score + frames.get(i).score();
+			s = s + frames.get(i).score();
 		}
-		return score + addBonus();
+		return s + score;
 	}
 
 	public List<Frame> getFrames() {
