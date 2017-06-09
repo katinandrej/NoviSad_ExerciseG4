@@ -122,3 +122,12 @@ RefactoringAction 1497032910107 BowlingGame.java ADD void dodaj FIELD
 RefactoringAction 1497032916627 BowlingGame.java RENAME dodaj=>void addBonus() METHOD
 RefactoringAction 1497033035454 BowlingGame.java ADD int score FIELD
 EditAction 1497033115986 BowlingGame.java 1348 7 8 0
+UnitTestCaseAction 1497033123768 TestBowling.java FAIL
+UnitTestSessionAction 1497033123770 TestBowling.java FAIL
+RefactoringAction 1497033146602 TestBowling.java ADD void test_TwoStrikesInRow()/2 METHOD
+RefactoringAction 1497033151114 TestBowling.java RENAME test_TwoStrikesInRow()/2=>void test_StrikesInRow() METHOD
+RefactoringAction 1497033153132 TestBowling.java RENAME test_StrikesInRow()=>void test_StrikesIn() METHOD
+RefactoringAction 1497033154647 TestBowling.java RENAME test_StrikesIn()=>void test_StrikesInOne() METHOD
+RefactoringAction 1497033156158 TestBowling.java RENAME test_StrikesInOne()=>void test_StrikesInOneT() METHOD
+RefactoringAction 1497033159173 TestBowling.java RENAME test_StrikesInOneT()=>void test_StrikesInOneThrow() METHOD
+EditAction 1497033173539 TestBowling.java 3232 11 67 9

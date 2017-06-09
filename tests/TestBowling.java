@@ -91,6 +91,18 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void test_StrikesInOneThrow() throws BowlingException{
+		game = new BowlingGame();
+		frame = new Frame(10, 0);
+		Frame frame2 = new Frame(3, 3);
+		game.addFrame(frame);
+		game.addFrame(frame2);
+		
+		assertEquals(22, game.score());
+		
+	}
+	
+	@Test
 	public void test_TwoStrikesInRow() throws BowlingException{
 		game = new BowlingGame();
 		frame = new Frame(10, 0);
