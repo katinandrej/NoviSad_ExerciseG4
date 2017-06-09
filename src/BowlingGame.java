@@ -35,7 +35,7 @@ public class BowlingGame {
 	public int addBonus() throws BowlingException {
 		for (int i = 0; i < frames.size(); i++) {
 			if (frames.get(i).isStrike() && frames.get(i+1).isStrike() && i <= frames.size() - 2) {
-				score = score + 10 + frames.get(i+2).getFirstThrow() + frames.get(i+2).getFirstThrow() + frames.get(i+2).getSecondThrow();
+				score = score + 10 + frames.get(i+1).getFirstThrow();
 			}
 			else if (frames.get(i).isStrike() && i <= frames.size() - 1) {
 				score = score + frames.get(i+1).getFirstThrow() + frames.get(i+1).getSecondThrow();
