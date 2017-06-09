@@ -44,3 +44,10 @@ EditAction 1497031689841 TestBowling.java 1318 3 30 2
 UnitTestCaseAction 1497031699072 TestBowling.java FAIL
 UnitTestSessionAction 1497031699073 TestBowling.java FAIL
 EditAction 1497031723286 Frame.java 681 6 7 0
+UnitTestCaseAction 1497031734403 TestBowling.java OK
+UnitTestSessionAction 1497031734405 TestBowling.java OK
+RefactoringAction 1497031767727 TestBowling.java ADD void test_scoreInOneFrame()/2 METHOD
+RefactoringAction 1497031776755 TestBowling.java RENAME test_scoreInOneFrame()/2=>void test_scoreIfOneFrame() METHOD
+RefactoringAction 1497031779770 TestBowling.java RENAME test_scoreIfOneFrame()=>void test_scoreIfStrikOneFrame() METHOD
+RefactoringAction 1497031781780 TestBowling.java RENAME test_scoreIfStrikOneFrame()=>void test_scoreIfStrikeOneFrame() METHOD
+EditAction 1497031810732 TestBowling.java 1496 4 33 3

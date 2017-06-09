@@ -50,5 +50,13 @@ public class TestBowling {
 		
 		assertEquals(7, frame.score());
 	}
+	
+	@Test
+	public void test_scoreIfStrikeOneFrame() throws BowlingException{
+		game = new BowlingGame();
+		frame = new Frame(10, 0);
+		
+		assertTrue(frame.isStrike());
+	}
 
 }
