@@ -28,3 +28,6 @@ RefactoringAction 1497031314904 TestBowling.java RENAME test_addingMore=>void te
 RefactoringAction 1497031316416 TestBowling.java RENAME test_addingMoreThan=>void test_addingMoreThan10 FIELD
 RefactoringAction 1497031319428 TestBowling.java RENAME test_addingMoreThan10=>void test_addingMoreThan10Frames() METHOD
 EditAction 1497031452407 TestBowling.java 1105 2 27 1
+UnitTestCaseAction 1497031461544 TestBowling.java FAIL
+UnitTestSessionAction 1497031461546 TestBowling.java FAIL
+EditAction 1497031522300 BowlingGame.java 957 6 4 0
