@@ -97,3 +97,10 @@ EditAction 1497032402052 TestBowling.java 2315 8 45 6
 UnitTestCaseAction 1497032411197 TestBowling.java FAIL
 UnitTestSessionAction 1497032411199 TestBowling.java FAIL
 EditAction 1497032464174 Frame.java 1134 6 7 0
+UnitTestCaseAction 1497032473051 TestBowling.java OK
+UnitTestSessionAction 1497032473054 TestBowling.java OK
+RefactoringAction 1497032501557 TestBowling.java ADD void test_ExceptionIfScoreIsGreaterThan10()/2 METHOD
+RefactoringAction 1497032507570 TestBowling.java RENAME test_ExceptionIfScoreIsGreaterThan10()/2=>void test_() METHOD
+RefactoringAction 1497032532616 TestBowling.java RENAME test_()=>void test_TwoStrikesIn() METHOD
+RefactoringAction 1497032534127 TestBowling.java RENAME test_TwoStrikesIn()=>void test_TwoStrikesInRow() METHOD
+EditAction 1497032692313 BowlingGame.java 956 6 4 0
